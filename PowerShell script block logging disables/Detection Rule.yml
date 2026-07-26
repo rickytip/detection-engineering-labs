@@ -1,0 +1,8 @@
+/** 
+    Splunk Query Language(SPL)
+    index=detectiontable
+**/
+
+index=detectiontable 
+Image = "C:\\Windows\\System32\\reg.exe"
+CommandLine = "reg *add* *EnableScriptBlock*"
