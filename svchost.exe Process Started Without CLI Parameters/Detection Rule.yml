@@ -1,0 +1,6 @@
+/** 
+    Splunk Query Language(SPL)
+    index=detectiontable
+**/
+
+index=detectiontable CommandLine = "C:\\WINDOWS\\system32\\svchost.exe"
