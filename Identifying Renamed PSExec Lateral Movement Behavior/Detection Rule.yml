@@ -1,0 +1,5 @@
+// Note: Always use the table name `DetectionTable` for your queries.
+DetectionTable
+| where ParentImage contains "C:\\Windows\\System32\\cmd.exe"
+| where OriginalFileName contains "psexesvc.exe"
+  or OriginalFileName contains "psexec"
