@@ -1,0 +1,6 @@
+/** 
+    Splunk Query Language(SPL)
+    index=detectiontable
+**/
+
+index=detectiontable CommandLine = "*reg  add \"HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\*"
