@@ -1,0 +1,6 @@
+/** 
+    Splunk Query Language(SPL)
+    index=detectiontable
+**/
+
+index=detectiontable OriginalFileName="ATTRIB.EXE" CommandLine="*+h*"
