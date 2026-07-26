@@ -1,0 +1,5 @@
+// Note: Always use the table name `DetectionTable` for your queries.
+DetectionTable
+| where Image contains "powershell.exe"
+| where ParentImage contains "chrome.exe"
+  or ParentImage contains "msedge.exe"
