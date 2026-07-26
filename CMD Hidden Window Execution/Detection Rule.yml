@@ -1,0 +1,8 @@
+/** 
+    Splunk Query Language(SPL)
+    index=detectiontable
+**/
+
+index=detectiontable 
+CommandLine = "cmd.exe */b*" OR "*/min*"
+Image = "C:\\Windows\\System32\\cmd.exe"
