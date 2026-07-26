@@ -1,0 +1,5 @@
+// Note: Always use the table name `DetectionTable` for your queries.
+DetectionTable
+| where EventId contains "4625"
+| summarize count() by TargetUserName, IpAddress
+| where count_ >= 10
