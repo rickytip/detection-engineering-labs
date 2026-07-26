@@ -1,0 +1,7 @@
+/** 
+    Splunk Query Language(SPL)
+    index=detectiontable
+**/
+
+index=detectiontable 
+CommandLine = "net *$* *add*"
