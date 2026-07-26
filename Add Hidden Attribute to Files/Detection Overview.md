@@ -43,3 +43,6 @@ Data source: Sysmon,sample data:
 }
 ## References
 https://ss64.com/nt/attrib.html
+
+## Results 
+<img width="955" height="698" alt="Screenshot 2026-07-26 at 12 21 44 PM" src="https://github.com/user-attachments/assets/e370589d-0ed5-4b37-acee-e1bce7469a80" />
