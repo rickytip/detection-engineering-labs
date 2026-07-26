@@ -1,0 +1,9 @@
+/** 
+    Splunk Query Language(SPL)
+    index=detectiontable
+**/
+
+index=detectiontable 
+Image = "C:\\Windows\\system32\\reg.exe"
+TargetObject = "*SpecialAccounts*"
+EventType = "SetValue"
